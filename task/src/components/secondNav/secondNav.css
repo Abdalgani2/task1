@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 25px;
+}
+.image{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.container1 {
+    font-family: arial;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 1087px) {
+    #secondNav{
+        display: none;
+    }
+  }

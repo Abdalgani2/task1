@@ -1,0 +1,73 @@
+.mainDivItems {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    margin-top: 13px ;
+    
+
+}
+
+.itemCard {
+    background-color: #F7F5F2;
+    height: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2% ;
+    
+}
+.info{
+    color: #01b2ee;
+
+}
+@media screen and (max-width: 600px) {
+    .mainDivItems {
+        display: block;
+        margin-top: 13px;
+
+    }
+
+    .itemCard {
+        background-color: #F7F5F2;
+        
+        height: 15rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+    }
+
+}
+
+@media screen and (max-width: 1087px) {
+    .mainDivItems {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+        margin-top: 13px;
+
+    }
+
+    .itemCard {
+        background-color: #F7F5F2;
+        height: 20rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+    }
+
+}
+
+
+ .title {
+    font-size: 150%;
+
+} 
+
+.imgCard {
+    width: 100%;
+    height: 50%;
+    border-radius: 2% ;
+}
+
